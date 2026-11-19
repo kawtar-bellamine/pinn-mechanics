@@ -1,0 +1,27 @@
+{
+ "reference": "Raissi et al. (2019), burgers_shock.mat, 256 x 100 grid",
+ "cole_hopf_vs_published_reference": {
+  "rel_l2": 2.924231602713251e-12,
+  "max_abs": 4.214978366334776e-11
+ },
+ "our_pinn_on_published_grid": {
+  "rel_l2": 0.0074744733194846,
+  "max_abs": 0.11041823972361775
+ },
+ "our_pinn_rar_on_published_grid": {
+  "rel_l2": 0.0020555483984850526,
+  "max_abs": 0.010624715799552265
+ },
+ "paper_setup_reproduced": {
+  "rel_l2": 0.0004407152305966364,
+  "max_abs": 0.0021486710338403103,
+  "train_seconds": 1166,
+  "paper_reported_rel_l2": 0.00067,
+  "final_loss": {
+   "it": 15000,
+   "loss": 1.354827629396882e-06,
+   "data": 6.829625221250728e-08,
+   "pde": 1.2865313771843748e-06
+  }
+ }
+}
